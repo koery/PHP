@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="jquery.min.js"></script>
+</head>
+<body>
+
+</body>
+<script>
+var str="商机主题：官网及官方公众号需要重新设计与建设$$$客户：广西玉柴$$$商机金额：0元$$$销售阶段：初步沟通$$$赢单几率：无法判断$$$最后回复时间：2015-11-02$$$所属部门：营销中心";
+var str_arr=str.split("$$$");
+var result = [];
+for(var i=0;i<str_arr.length;i++){
+	var temp = str_arr[i];
+	var temp_arr = temp.split("：");	
+	result[i]=temp_arr;
+	
+}
+
+</script>
+
+
+</html>

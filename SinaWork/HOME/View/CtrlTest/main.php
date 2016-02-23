@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title>CtrlText---main</title>
+</head>
+<body>
+<font>CtrlText---main</font>
+<div>
+<?php
+?>
+</div>
+</body>
+</html>
+<script>
+alert(get_x);
+</script>
