@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="jquery.min.js"></script>
+</head>
+<body>
+</body>
+<script type="text/javascript">
+	// $.ajax({
+
+	// 	'url' : 'http://middleware.b2b.com.cn/index/index',
+	// 	'dataType' : 'json',
+	// 	'data':{username:"hello"},
+	// 	success:function(response){
+	// 		console.log(response);
+	// 	}
+	// });
+	// 
+	function getmessage(response){
+		console.log('回调方式传递');
+		console.log(response);
+
+	}
+
+
+</script>
+<script src="http://middleware.b2b.com.cn/index/hello?callback=getmessage"></script>
+</html>

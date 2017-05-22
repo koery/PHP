@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>auto</title>
+</head>
+<body>
+<form action="auto.php" method="post">
+<table>
+<tr>
+	<td>类别</td>	
+	<td>参数</td>
+</tr>
+<tr>
+	<td>模型</td>	
+	<td><input type="text" value="" name="modelName"></td>
+</tr><tr>
+	<td>控制器名称</td>
+	<td><input type="text" value="" name="controllersName"></td>
+</tr><tr>
+	<td>提交方式</td>
+	<td>
+	<input type="radio" value="get" name="submitType">get</input>
+	<input type="radio" value="post" name="submitType" checked>post</input>
+	</td>
+</tr><tr>
+	<td>注释</td>
+	<td><input type="text" value="" name="comment"></td>
+</tr><tr>
+	<td>是否带参数</td>
+	<td>
+		<input type="radio" value="1" name="params" checked>带参数</input>
+		<input type="radio" value="0" name="params">不带参数</input>
+	</td>
+</tr>
+</table>	
+	<input type="submit" value="提交">
+</form>
+</body>
+</html>
